@@ -1,0 +1,202 @@
+ 
+@import url("styleBlogLink.css");
+
+@import url("style900.css");
+
+@import url("blog900.css");
+
+
+
+  .containerIndex{
+      display:grid;
+      width:80vw;
+      margin: auto;
+      grid-template-columns:50% 50%;  
+      grid-template-rows: 17% 17% 20% 17% 17%;
+      grid-template-areas: 
+      "top top"
+      "nav nav"
+      "bottomLeft bottomRight"
+      "newItem newItem1"
+      "newItem2 newItem3"
+      "footer footer";
+/*      border: 2px solid lightgoldenrodyellow;*/
+/*      justify-content: center;*/
+       border-radius: 10px;
+
+  }
+
+  blockquote{
+    color:darkslateblue;
+  }
+
+
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    color: white;
+  }
+
+  p{
+    color: white;
+    text-decoration: underline;
+  }
+
+
+  .boxIndex{
+    display: flex;
+/*    align-items: center;*/
+/*    justify-content:center;*/
+    border: 3px solid blue;
+    margin: 5px;
+    border-radius:10px;
+    background-color: CornflowerBlue;
+    height: 177px;
+    }
+  
+
+  .indentText{
+    text-indent: 50px;
+  }
+
+
+  .nestedGridIndex{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    text-align: left;
+    vertical-align: top;
+  }
+
+
+
+  .blogTitleIndex{
+
+      text-align: right;
+      vertical-align: top;
+      margin: 5px;
+      color: white;
+
+  }
+
+  .blogPostIndex{
+       text-align: right;
+       vertical-align: top;
+       margin: 5px;
+  }
+
+  
+
+  #blogDescriptionIndex{
+    margin:20px;
+  }
+
+  h3{
+    margin: 10px;
+    color:white;
+  }
+
+  h1{
+    color: white;
+  }
+
+  header {
+    text-decoration: underline;
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  .inLineNav{
+    display:inline;
+  }
+
+  a{
+  padding: 30px;
+  }
+
+  a:hover{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+  } 
+
+
+  #one{
+    grid-area: top;
+    justify-content: center;
+    align-items: center;
+    background-color: CornflowerBlue;
+    color:white;
+  }
+
+/*  #two{
+    grid-area: bottomLeft;
+    background-image: url(../images/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }*/
+
+img{
+  height: 70%;
+}
+
+  #twoPointFive{
+    grid-area: nav;
+    justify-content: center;
+    align-items: center;
+    background-color: CornflowerBlue;
+    color:white;
+  }
+
+  #three{
+    grid-area: bottomRight;
+    background-color: CornflowerBlue;
+
+  }
+
+  #four{
+    justify-content: center;
+    align-items: center;
+    grid-area:footer;
+    color: darkgreen;
+  }
+
+   #five{
+    grid-area:missedItem;
+  }
+
+  #six{
+/*    display: none !important;*/
+    grid-area:newItem;
+  }
+
+  #seven{
+      grid-area: newItem1;
+  }
+  
+  #eight{
+    grid-area: newItem2;
+   
+  }
+
+  button{
+    margin: 30px;
+  }
+
+   #nine{
+    grid-area: newItem4;
+    display: none;
+  }
+
+
+  #ten{
+    grid-area: newItem5;
+    display: none;
+  }
+ 
+
+ 
